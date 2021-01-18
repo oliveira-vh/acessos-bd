@@ -1,0 +1,23 @@
+NoSQL > Collection > Documents
+
+SQL > Tabelas > Registros
+Schema
+
+Categories:
+    id:
+    category
+
+Category_Product:
+    category_id
+    product_id
+
+Products:
+    id:
+    product
+    price
+
+Images:
+    id
+    description
+    url
+    product_id

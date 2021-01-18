@@ -1,0 +1,17 @@
+Cenário:
+-Categories: id, category
+-Products: id, product, price
+-Images: id, description, url
+
+-Categories has many Products
+-Product has and belongs to many Categories
+-Product has many Images
+
+Category <> N:M <> Product
+Product 1:N Image
+
+--Operações:
+-CRUD para todos
+-Buscar todos os produtos por 1 Categoria
+-Paginação
+-Buscar 1 produto >> Trazer as imagens (ou pelo menos a primeira)
